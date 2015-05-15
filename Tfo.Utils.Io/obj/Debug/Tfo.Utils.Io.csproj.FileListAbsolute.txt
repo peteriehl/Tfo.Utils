@@ -1,5 +1,0 @@
-C:\Users\Pete\Documents\GitHub\Tfo.Utils\Tfo.Utils.Io\obj\Debug\Tfo.Utils.Io.csprojResolveAssemblyReference.cache
-C:\Users\Pete\Documents\GitHub\Tfo.Utils\Tfo.Utils.Io\bin\Debug\Tfo.Utils.Io.dll
-C:\Users\Pete\Documents\GitHub\Tfo.Utils\Tfo.Utils.Io\bin\Debug\Tfo.Utils.Io.pdb
-C:\Users\Pete\Documents\GitHub\Tfo.Utils\Tfo.Utils.Io\obj\Debug\Tfo.Utils.Io.dll
-C:\Users\Pete\Documents\GitHub\Tfo.Utils\Tfo.Utils.Io\obj\Debug\Tfo.Utils.Io.pdb
