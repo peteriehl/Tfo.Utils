@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\KeyedBindingList.cs" />
+    <Compile Include="StreamReaderExtensions.cs" />
     <Compile Include="GenericDataReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
