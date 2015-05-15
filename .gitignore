@@ -14,8 +14,17 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+# Visual Studio Folders
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+
 # Visual Studio Files
 *.suo
+*.user
 
 # Windows shortcuts
 *.lnk
