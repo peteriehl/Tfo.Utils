@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tfo.Utils.Io
+namespace Tfo.Utils.IO
 {
     public class StreamReaderExtension
     {

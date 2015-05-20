@@ -26,6 +26,10 @@ build/
 *.suo
 *.user
 
+# Git Packages
+/packages/
+!packages/repositories.config
+
 # Windows shortcuts
 *.lnk
 
