@@ -4,39 +4,10 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tfo.Utils.Io.BaseClasses;
 
 namespace Tfo.Utils.Io.Collections
 {
-    /// <summary>
-    /// Allows a class to provide a key value for the <i>KeyedBindingList</i>
-    /// </summary>
-    public interface IKeyedItem<out T>
-    {
-        /// <summary>
-        /// The unique key to use
-        /// </summary>
-        T Key { get; }
-    }
-
-    public interface IView
-    {
-        /// <summary>
-        /// Copies all relevant properties from the specified target
-        /// </summary>        
-        void CopyFrom(IView view);
-    }
-
-    public interface IKeyedCollection<TKey, T> : IList<T> where T : class, IKeyedItem<TKey>, IView
-    {
-        T Find(TKey key);
-
-        void ApplyChanges(IKeyedCollection<TKey, T> updatedSource);
-
-        void ApplyChanges(IKeyedCollection<TKey, T> updatedSource, bool deleteNonMatching);
-
-        void Commit();
-    }
-
     /// <summary>
     /// A binding list supporting finding items by a unique key.  Note that a dynamic key (i.e. that changes after being added to the list) isn't supported.
     /// </summary>
